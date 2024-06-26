@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!--Navbar-->
+        <nav>
+            <h1 class="logo">Trends</h1>
+            <ul>
+                <li>
+                    <a id="home">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blogs</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+        <!--Main Page-->
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim?</p>
+                <button>Explore</button>
+            </div>
+            <img src="-original-imahf6tdqzzzzvkd.webp" alt="">
+        </div>
+        <!--Cards-->
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="shirt1-removebg-preview.png" alt="">
+                    <div class="crdText">
+                    <h2>Custom Trending Shirt's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                </div>
+                </div>
+                <div class="crd">
+                    <img src="shirt2-removebg-preview.png" alt="">
+                    <div class="crdText">
+                    <h2>Custom Trending Shirt's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                </div>
+                </div>
+                <div class="crd">
+                    <img src="shirt3-removebg-preview.png" alt="">
+                    <div class="crdText">
+                    <h2>Cotton Trending Shirt's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="head">
+                <h1>Trend's <span>Women's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="xs-midi-funahme-original-imahyyzdjhxzrdfv.webp" alt="">
+                    <div class="crdText">
+                    <h2>Custom Trending Top's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="m-ttj6006191-tokyo-talkies-original-imagb6byjpekkupc.webp" alt="">
+                    <div class="crdText">
+                    <h2>Trending Girl Top's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="l-ya-ma646-metronaut-original-imahf6yyxkzb4yry.webp" alt="">
+                    <div class="crdText">
+                    <h2>Cotton Trending Top's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><br>
+                    <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Blogs-->
+        <div class="blog">
+            <div class="head">
+                <h1>Trend's<span> Men's wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="xl-mnd0062-nayo-original-imagscyf4kdddedy.webp" alt="">
+                    <div class="blogtext">
+                        <h2>Trending Girl Cloths</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, sunt voluptas?</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="blog" id="blog1">
+                    <img src="xxl-pc-ds-plain-black-madfrog-original-imahyz22qxahzqck.webp" alt="">
+                    <div class="blogtext">
+                        <h2>Trending Boy's Cloths</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, sunt voluptas?</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Letter-->
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign Up For NewsLetter</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <div class="footerText">
+                <h2>Trend's</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>Address :Adrress : Lorem ipsum dolor sit amet, <br>
+                    consectetur adipisicing <br>
+                    Perferendis, excepturi alias.</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+            <div class="footerText">
+                <h2>Contect</h2>
+                <p>9989003229</p>
+                <p>Customer</p>
+                <p>Comming up</p>
+                <p>New Arrival</p>
+
+            </div>
+            <div class="footerText">
+                <h2>Trending</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Shops</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
